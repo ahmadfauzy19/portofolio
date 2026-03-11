@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion"
 import { useTheme } from "../context/themeContext"
+import Link from "next/link"
 
 export default function Hero() {
 
@@ -120,22 +121,25 @@ export default function Hero() {
 
           <div className="flex gap-4 mt-10">
 
-            <button
+           <a
+              href="/cv/CV_Ahmad_Fauzy.pdf"
+              download
               className={`
-              px-6 py-3
-              ${current.accentBg}
-              text-black
-              rounded-xl
-              font-semibold
-              ${current.accentHover}
-              hover:scale-105
-              transition
+                px-6 py-3
+                ${current.accentBg}
+                text-black
+                rounded-xl
+                font-semibold
+                ${current.accentHover}
+                hover:scale-105
+                transition
               `}
             >
               Download CV
-            </button>
+            </a>
 
-            <button
+            <Link
+              href={'/projects'}
               className={`
               px-6 py-3
               border
@@ -148,7 +152,7 @@ export default function Hero() {
               `}
             >
               View Projects
-            </button>
+            </Link>
 
           </div>
 
