@@ -46,7 +46,7 @@ export default function Footer() {
           <div className="flex items-center gap-6 text-xl text-gray-300">
 
             <a
-              href="https://github.com"
+              href="https://github.com/ahmadfauzy19"
               target="_blank"
               className="hover:text-white hover:scale-110 transition"
             >
@@ -54,7 +54,7 @@ export default function Footer() {
             </a>
 
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/ahmad-fauzy-47283527a/"
               target="_blank"
               className="hover:text-white hover:scale-110 transition"
             >
@@ -62,7 +62,7 @@ export default function Footer() {
             </a>
 
             <a
-              href="https://instagram.com"
+              href="https://instagram.com/hmdfzyy"
               target="_blank"
               className="hover:text-pink-400 hover:scale-110 transition"
             >

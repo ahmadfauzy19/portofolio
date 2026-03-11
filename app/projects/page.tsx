@@ -34,23 +34,23 @@ export default function Projects() {
       github: "https://github.com/ahmadfauzy19/Frontend-Dashboard-Resiko-Banjir",
       demo: "https://sim-banjir.ekosistemdata.dev/"
     },
-    // {
-    //   title: "Protrack",
-    //   description:
-    //     "Backend system for monitoring construction financing workflows and fund disbursement processes.",
-    //   tech: ["Spring Boot", "ReactJs", "Docker"],
-    //   image: "/projects/construction.png",
-    //   github: "#",
-    //   demo: "#"
-    // },
     {
       title: "Prototype Geodata KBB",
       description:
-        "Backend system for monitoring construction financing workflows and fund disbursement processes.",
+      "Backend system for monitoring construction financing workflows and fund disbursement processes.",
       tech: ["Spring Boot", "ReactJs", "Docker"],
       image: "/projects/geodata-kbb.png",
       demo: "https://geokbb.vercel.app/",
       github: "https://github.com/ahmadfauzy19/frontend-geokbb"
+    },
+    {
+      title: "Protrack",
+      description:
+        "Construction financing monitoring system with geotagged progress verification and milestone-based fund disbursement tracking.",
+      tech: ["Sprintboots", "React", "MySQL"],
+      image: "/projects/construction.png",
+      github: "https://github.com/ahmadfauzy19/frontend-protrack",
+      demo: "#"
     }
   ]
 
